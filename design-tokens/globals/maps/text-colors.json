@@ -1,0 +1,39 @@
+{
+  "text-colors": {
+    "white": { 
+      "value": "{color.base.white.value}", 
+      "type" : "text-colors", 
+      "group" : "map" 
+    },
+    "black": { 
+      "value": "{color.base.black.value}", 
+      "type" : "text-colors", 
+      "group" : "map" 
+    },
+    "red": { 
+      "value": "{color.brand.secondary.red.base.value}", 
+      "type" : "text-colors", 
+      "group" : "map" 
+    },
+    "blue": { 
+      "value": "{color.brand.primary.blue.base.value}", 
+      "type" : "text-colors", 
+      "group" : "map" 
+    },
+    "green": { 
+      "value": "{color.brand.secondary.green.dark.value}", 
+      "type" : "text-colors", 
+      "group" : "map" 
+    },
+    "pink": { 
+      "value": "{color.brand.secondary.pink.base.value}", 
+      "type" : "text-colors", 
+      "group" : "map" 
+    },
+    "purple": { 
+      "value": "{color.brand.secondary.purple.base.value}", 
+      "type" : "text-colors", 
+      "group" : "map" 
+    }
+  }
+}

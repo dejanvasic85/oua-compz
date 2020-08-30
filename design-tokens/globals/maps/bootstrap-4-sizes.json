@@ -1,0 +1,94 @@
+{
+  "bootstrap-4-sizes": {
+    "0": { 
+      "value": "0", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "0_5": { 
+      "value": "0.5rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "1": { 
+      "value": "1rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "1_5": { 
+      "value": "1.5rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "2": { 
+      "value": "2rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "2_5": { 
+      "value": "2.5rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "3": { 
+      "value": "3rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "4": { 
+      "value": "4rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "5": { 
+      "value": "5rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "6": { 
+      "value": "6rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "7": { 
+      "value": "7rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "8": { 
+      "value": "8rem", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "25": { 
+      "value": "25%", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "33": { 
+      "value": "33%", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "50": { 
+      "value": "50%", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "75": { 
+      "value": "75%", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "100": { 
+      "value": "100%", 
+      "type" : "sizes", 
+      "group" : "map" 
+    },
+    "auto": { 
+      "value": "auto", 
+      "type" : "sizes", 
+      "group" : "map" 
+    }
+  }
+}

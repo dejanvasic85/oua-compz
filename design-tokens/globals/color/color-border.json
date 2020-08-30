@@ -1,0 +1,14 @@
+{
+  "color": {
+    "border": {
+      "base": {
+        "value": "{color.grey_35.value}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{color.grey_65.value}",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "app-name" : {
+    "value": "public"
+  },
+  "icon": {
+    "font": {
+      "path": {
+        "value": "'/dist/fonts'",
+        "type": "font"
+      }
+    }
+  }
+}

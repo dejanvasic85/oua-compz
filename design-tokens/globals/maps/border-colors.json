@@ -1,0 +1,54 @@
+{
+  "border-colors": {
+    "current": { 
+      "value": "currentColor",
+      "type" : "border-colors", 
+      "group" : "map" 
+    },
+    "blue": { 
+      "value": "{color.brand.primary.blue.base.value}", 
+      "type" : "border-colors", 
+      "group" : "map" 
+    },
+    "red": { 
+      "value": "{color.brand.secondary.red.base.value}", 
+      "type" : "border-colors", 
+      "group" : "map" 
+    },
+    "grey": { 
+      "value": "{color.grey_35.value}", 
+      "type" : "border-colors", 
+      "group" : "map" 
+    },
+    "green": { 
+      "value": "{color.brand.secondary.green.dark.value}", 
+      "type" : "border-colors", 
+      "group" : "map" 
+    },
+    "pink": { 
+      "value": "{color.brand.secondary.pink.base.value}", 
+      "type" : "border-colors", 
+      "group" : "map" 
+    },
+    "purple": { 
+      "value": "{color.brand.secondary.purple.base.value}", 
+      "type" : "border-colors", 
+      "group" : "map" 
+    },
+    "charcoal": { 
+      "value": "{color.brand.primary.charcoal.base.value}", 
+      "type" : "border-colors", 
+      "group" : "map" 
+    },
+    "grey-dark": { 
+      "value": "{color.grey_35.value}", 
+      "type" : "border-colors", 
+      "group" : "map" 
+    },
+    "grey-light": { 
+      "value": "{color.grey_65.value}", 
+      "type" : "border-colors", 
+      "group" : "map" 
+    }
+  }
+}

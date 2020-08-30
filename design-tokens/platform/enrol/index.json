@@ -1,0 +1,13 @@
+{
+  "app-name" : {
+    "value": "enrol"
+  },
+  "icon": {
+    "font": {
+      "path": {
+        "value": "'/dist/fonts'",
+        "type": "font"
+      }
+    }
+  }
+}

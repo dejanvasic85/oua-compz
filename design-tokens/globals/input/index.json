@@ -1,0 +1,18 @@
+{
+  "input": {
+    "height": {
+      "base": {
+        "value": "48px"
+      }
+    },
+    
+    "border": {
+      "base": { "value": "{color.brand.primary.charcoal.base.value}" },
+      "focus": { "value": "{color.brand.primary.blue.base.value}" }
+    },
+    "color": {
+      "focus": { "value": "{color.brand.primary.charcoal.base.value}" },
+      "placeholder": { "value": "{color.brand.primary.charcoal.lighter.value}" }
+    }
+  }
+}

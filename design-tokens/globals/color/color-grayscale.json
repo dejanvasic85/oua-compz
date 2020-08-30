@@ -1,0 +1,30 @@
+{
+  "color": {
+    "grey_70": {
+        "value": "#eee",
+        "type": "color",
+        "group" : "mono"
+    },
+    "grey_65": {
+        "value": "#e1e1e2",
+        "type": "color",
+        "group" : "mono"
+    },
+    "grey_35": {
+        "value": "#949496",
+        "type": "color",
+        "group" : "mono"
+    },
+    "grey_20": {
+        "value": "#6e6e6f",
+        "type": "color",
+        "group" : "mono"
+    },
+    "grey_15": {
+        "value": "#616163",
+        "type": "color",
+        "group" : "mono"
+    }
+  }
+}
+

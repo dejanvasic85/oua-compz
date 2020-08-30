@@ -1,0 +1,7 @@
+{
+  "bootstrap-4-displays": {
+    "value": "none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex",
+    "type" : "displays", 
+    "group" : "map"
+  }
+}

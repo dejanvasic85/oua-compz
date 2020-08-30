@@ -1,0 +1,57 @@
+{
+  "color": {
+    "base": {
+      "white": { 
+        "value": "#fff", 
+        "type" : "color",
+        "group" : "generic"
+      },
+      "black": { 
+        "value": "#231f20 ",
+        "type": "color",
+        "group" : "generic"
+      },
+      "red": { 
+        "value": "#e22252",
+        "type": "color",
+        "group" : "generic"
+      },
+      "orange": { 
+        "value": "#f0ad4e",
+        "type": "color",
+        "group" : "generic"
+      },
+       "green": { 
+        "value": "#4cbaac",
+        "type": "color",
+        "group" : "generic"
+      },
+      "blue": { 
+        "value": "#3455a5",
+        "type": "color",
+        "group" : "generic"
+      }
+    },
+    
+    "error": {
+      "value": "{color.base.red.value}",
+      "type": "color",
+        "group" : "validation"
+    },
+    "success": {
+      "value": "{color.base.green.value}",
+      "type": "color",
+      "group" : "validation"
+    },
+    "info": {
+      "value": "{color.base.blue.value}",
+      "type": "color",
+      "group" : "validation"
+    },
+    "warning": {
+      "value": "{color.base.orange.value}",
+      "type": "color",
+      "group" : "validation"
+    }
+  }
+}

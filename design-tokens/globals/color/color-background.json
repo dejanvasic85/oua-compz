@@ -1,0 +1,22 @@
+{
+  "bg": {
+    "grey": {
+      "base": {
+        "value": "#e1e1e2",
+        "type": "color",
+        "group" : "background"
+      },
+      "light": {
+        "value": "#eeeeee",
+        "type": "color",
+        "group" : "background"
+      },
+      "dark": {
+        "value": "#4A8C70",
+        "type": "color",
+        "group" : "background"
+      }
+    }
+  }
+}
+    

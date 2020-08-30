@@ -1,0 +1,19 @@
+{
+  "focus-colors": {
+    "white": { 
+      "value": "{color.base.white.value}", 
+      "type" : "focus-colors", 
+      "group" : "map" 
+    },
+    "blue": { 
+      "value": "{color.brand.primary.blue.base.value}", 
+      "type" : "focus-colors", 
+      "group" : "map" 
+    },
+    "red": { 
+      "value": "{color.brand.secondary.red.base.value}", 
+      "type" : "focus-colors", 
+      "group" : "map" 
+    }
+  }
+}

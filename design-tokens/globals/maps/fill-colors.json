@@ -1,0 +1,29 @@
+{
+  "fill-colors": {
+    "current": { 
+      "value": "currentColor",
+      "type" : "fill-colors", 
+      "group" : "map" 
+    },
+    "white": { 
+      "value": "{color.base.white.value}", 
+      "type" : "fill-colors", 
+      "group" : "map" 
+    },
+    "charcoal": { 
+      "value": "{color.brand.primary.charcoal.base.value}", 
+      "type" : "fill-colors", 
+      "group" : "map" 
+    },
+    "black": { 
+      "value": "{color.base.black.value}", 
+      "type" : "fill-colors", 
+      "group" : "map" 
+    },
+    "blue": { 
+      "value": "{color.brand.primary.blue.base.value}", 
+      "type" : "fill-colors", 
+      "group" : "map" 
+    }
+  }
+}

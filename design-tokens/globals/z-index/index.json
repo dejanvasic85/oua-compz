@@ -1,0 +1,25 @@
+{
+  "zindex": {
+    "navbar": { 
+      "value": "1000 !default" 
+    },
+    "dropdown": { 
+      "value": "1000 !default" 
+    },
+    "popover": { 
+      "value": "1060 !default" 
+    },
+    "tooltip": { 
+      "value": "1070 !default" 
+    },
+    "navbar-fixed": {
+      "value": "1030 !default" 
+    },
+    "modal-background": { 
+      "value": "1040 !default" 
+    },
+    "modal": { 
+      "value": "1050 !default" 
+    }
+  }
+}

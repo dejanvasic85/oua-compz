@@ -1,0 +1,29 @@
+{
+  "bootstrap-4-grid-breakpoints": {
+    "xs": { 
+      "value": "0",
+      "type" : "breakpoint", 
+      "group" : "map"
+    },
+    "sm": { 
+      "value": "{screen.xs.value}", 
+      "type" : "breakpoint", 
+      "group" : "map" 
+    },
+    "md": { 
+      "value": "{screen.sm.value}", 
+      "type" : "breakpoint", 
+      "group" : "map" 
+    },
+    "lg": { 
+      "value": "{screen.md.value}", 
+      "type" : "breakpoint", 
+      "group" : "map" 
+    },
+    "xl": { 
+      "value": "{screen.lg.value}", 
+      "type" : "breakpoint", 
+      "group" : "map" 
+    }
+  }
+}

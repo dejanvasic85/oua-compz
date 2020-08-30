@@ -1,0 +1,99 @@
+{
+  "font-family": {
+    "base": {
+      "value":  "'Lato', sans-serif",
+      "category": "typography"
+    }
+  },
+  "font-size": {
+    "base": { 
+      "value": "1rem",
+      "type": "size",
+      "group": "typography"
+    },
+    "xs": { 
+      "value": ".75rem",
+      "type": "size",
+      "group": "typography" 
+    },
+    "sm": { 
+      "value": ".875rem",
+      "type": "size",
+      "group": "typography"
+    },
+    "md": { 
+      "value": "1.25rem",
+      "type": "size",
+      "group": "typography"
+    },
+    "lg": { 
+      "value": "1.5rem",
+      "type": "size",
+      "group": "typography" 
+    },
+    "xl": { 
+      "value": "1.75rem",
+      "type": "size",
+      "group": "typography" 
+    },
+    "xxl": { 
+      "value": "2rem",
+      "type": "size",
+      "group": "typography"
+    },
+    "xxxl": { 
+      "value": "2.25rem",
+      "type": "size",
+      "group": "typography" 
+    },
+    "xxxxl": { 
+      "value": "3rem",
+      "type": "size",
+      "group": "typography"
+    }
+  },
+  "font-weight": {
+    "light": { 
+      "value": "300",
+      "type": "weight",
+      "group": "typography" 
+    },
+    "regular": { 
+      "value": "400",
+      "type": "weight",
+      "group": "typography"
+    },
+    "bold": { 
+      "value": "700",
+      "type": "weight",
+      "group": "typography"
+    }
+  },
+  "line-height": {
+    "base": { 
+      "value": "1.428571429",
+      "type": "size",
+      "group": "typography" 
+    },
+    "large": { 
+      "value": "1.3333333",
+      "type": "size",
+      "group": "typography" 
+    },
+    "small": { 
+      "value": "1.25",
+      "type": "size",
+      "group": "typography" 
+    },
+    "computed": { 
+      "value": "22px",
+      "type": "size",
+      "group": "typography"
+    }
+  },
+  "font-size-h_1": { 
+    "value": "22px",
+    "type": "size",
+    "group": "typography" 
+  }
+}

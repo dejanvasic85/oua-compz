@@ -1,0 +1,14 @@
+{
+  "box": {
+    "border": { 
+      "value": "border",
+      "type" : "box-sizing", 
+      "group" : "map" 
+    },
+    "content": { 
+      "value": "content", 
+      "type": "box-sizing",
+      "group" : "map" 
+    }
+  }
+}

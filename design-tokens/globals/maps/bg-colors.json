@@ -1,0 +1,74 @@
+{
+  "bg-colors": {
+    "transparent": { 
+      "value": "transparent",
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "white": { 
+      "value": "{color.base.white.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "black": { 
+      "value": "{color.brand.primary.charcoal.base.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "blue": { 
+      "value": "{color.brand.primary.blue.base.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "red": { 
+      "value": "{color.brand.secondary.red.base.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "green": { 
+      "value": "{color.brand.secondary.green.dark.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "pink": { 
+      "value": "{color.brand.secondary.pink.base.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "purple": { 
+      "value": "{color.brand.secondary.purple.base.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "green-light": { 
+      "value": "{color.brand.secondary.green.light.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "blue-light": { 
+      "value": "{color.brand.primary.blue.light.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "purple-light": { 
+      "value": "{color.brand.secondary.purple.light.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "pink-light": { 
+      "value": "{color.brand.secondary.pink.light.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "grey": { 
+      "value": "{color.grey_65.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    },
+    "grey-light": { 
+      "value": "{color.grey_70.value}", 
+      "type" : "bg-colors", 
+      "group" : "map" 
+    }
+  }
+}

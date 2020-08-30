@@ -1,0 +1,13 @@
+{
+  "app-name" : {
+    "value": "studenthub"
+  },
+  "icon": {
+    "font": {
+      "path": {
+        "value": "'/dist/fonts'",
+        "type": "font"
+      }
+    }
+  }
+}

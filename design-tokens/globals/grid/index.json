@@ -1,0 +1,31 @@
+{
+  "grid": {
+    "columns": { "value": "12 !default" },
+    "gutter-width": { "value": "30px !default" },
+    "float-breakpoint": { "value": "{screen.sm-min.value}" },
+    "float-breakpoint-max": { "value": "{screen.xs-max.value}" }
+  },
+  "container": {
+    "tablet": {
+        "value": "750px",
+        "comment": "720px + $grid-gutter-width"
+    },
+    "sm": {
+        "value": "{container.tablet.value}!default"
+    },
+    "desktop": {
+        "value": "970px",
+        "comment": "940px + $grid-gutter-width"
+    },
+    "md": {
+        "value": "{container.desktop.value}!default"
+    },
+    "large-desktop": {
+        "value": "1170px",
+        "comment": "1140px + $grid-gutter-width"
+    },
+    "lg": {
+        "value": "{container.large-desktop.value}!default"
+    }
+  }
+}

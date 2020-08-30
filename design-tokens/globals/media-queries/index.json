@@ -1,0 +1,79 @@
+{
+  "screen": {
+    "xs": { 
+      "value": "480px",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "xs-min": { 
+      "value": "{screen.xs.value}",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "phone": { 
+      "value": "{screen.xs-min.value}",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "sm": { 
+      "value": "768px",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "sm-min": { 
+      "value": "{screen.sm.value}",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "tablet": { 
+      "value": "{screen.sm-min.value}",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "md": { 
+      "value": "992px",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "md-min": { 
+      "value": "{screen.md.value}",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "desktop": { 
+      "value": "{screen.md-min.value}",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "lg": { 
+      "value": "1200px",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "lg-min": { 
+      "value": "{screen.lg.value}",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "lg-desktop": { 
+      "value": "{screen.lg-min.value}",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "xs-max": { 
+      "value": "767px",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "sm-max": { 
+      "value": "991px",
+      "type": "size",
+      "group": "breakpoint"
+    },
+    "md-max": { 
+      "value": "1199px",
+      "type": "size",
+      "group": "breakpoint"
+    }
+  }
+}

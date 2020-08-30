@@ -10,7 +10,14 @@
     "jsx": "react",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "customMatcher": "\\.scss$",
+        "camelCase": true
+      }
+    ]
   },
   "include": ["src/**/*"],
   "exclude": [
