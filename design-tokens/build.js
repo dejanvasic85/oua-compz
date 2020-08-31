@@ -8,10 +8,10 @@ function getStyleDictionaryConfig() {
     platforms: {
       scss: {
         transformGroup: 'tokens-scss',
-        buildPath: `${OUT_DIR}/sass-variables/`,
+        buildPath: `${OUT_DIR}/`,
         files: [
           {
-            destination: '_variables.scss',
+            destination: 'variables.scss',
             format: 'scss/variables',
             filter: 'isToken',
           },
