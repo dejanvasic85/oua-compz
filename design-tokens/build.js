@@ -1,28 +1,25 @@
 const StyleDictionaryPackage = require('style-dictionary');
-const fs = require('fs');
 
-function getStyleDictionaryConfig(app, platform) {
+const OUT_DIR = 'src';
+
+function getStyleDictionaryConfig() {
   return {
-    source: [
-      `./design-tokens/src/platform/${app}/*.json`,
-      './design-tokens/src/globals/**/*.json',
-    ],
+    source: ['design-tokens/src/globals/**/*.json'],
     platforms: {
       scss: {
         transformGroup: 'tokens-scss',
-        buildPath: `./design-tokens/dist/${app}/`,
+        buildPath: `${OUT_DIR}/sass-variables/`,
         files: [
           {
-            destination: '_tokens.scss',
+            destination: '_variables.scss',
             format: 'scss/variables',
             filter: 'isToken',
           },
         ],
       },
-
       'icons/scss': {
         transformGroup: 'icons-scss',
-        buildPath: `./design-tokens/dist/sass-variables/`,
+        buildPath: `${OUT_DIR}/sass-variables/`,
         prefix: 'oua',
         files: [
           {
@@ -35,7 +32,7 @@ function getStyleDictionaryConfig(app, platform) {
       'maps/scss': {
         transformGroup: 'maps-scss',
         transform: 'isMaps',
-        buildPath: `./design-tokens/dist/sass-variables/maps/`,
+        buildPath: `${OUT_DIR}/sass-variables/maps/`,
         files: [
           {
             destination: `_spacers.map.scss`,
@@ -108,19 +105,6 @@ function getStyleDictionaryConfig(app, platform) {
             format: 'scss/map-flat',
             mapName: 'box-sizing',
             filter: 'isBoxSizing',
-          },
-        ],
-      },
-
-      'react/json': {
-        transformGroup: 'tokens-json',
-        buildPath: `./design-tokens/dist/${app}/`,
-        prefix: 'token',
-        files: [
-          {
-            destination: 'tokens.json',
-            format: 'json/flat',
-            filter: 'isToken',
           },
         ],
       },
@@ -248,19 +232,13 @@ StyleDictionaryPackage.registerTransformGroup({
 
 console.log('Build started...');
 
-const platform = 'scss';
-const app = 'components';
-
-console.log('\n==============================================');
-console.log(`\nProcessing: [${platform}] [${app}]`);
-
-const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(app, platform));
+const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig());
 
 StyleDictionary.buildPlatform('scss');
 StyleDictionary.buildPlatform('maps/scss');
 StyleDictionary.buildPlatform('icons/scss');
-StyleDictionary.buildPlatform('react/json');
 
 console.log('\nEnd processing');
+
 console.log('\n==============================================');
 console.log('\nBuild completed!');
